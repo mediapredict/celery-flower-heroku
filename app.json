@@ -6,8 +6,8 @@
     "flower",
     "monitor"
   ],
-  "website": "https://github.com/wli/celery-flower-heroku",
-  "repository": "https://github.com/wli/celery-flower-heroku",
+  "website": "https://github.com/mediapredict/celery-flower-heroku",
+  "repository": "https://github.com/mediapredict/celery-flower-heroku",
   "env": {
     "BROKER_URL": {
       "description": "Default broker URL.",
@@ -15,8 +15,8 @@
     },
     "FLOWER_EMAIL_DOMAIN": {
       "description": "Enables Google OAuth. You need to create OAuth credentials and also enable the Google+ API, otherwise it will return 403. You need to your domain to a regex like: .*@example\\.com$",
-      "value": "",
-      "required": false
+      "value": ".*@mediapredict.com",
+      "required": true
     },
     "FLOWER_OAUTH2_KEY": {
       "description": "Oauth2 key. Required if using OAuth.",
