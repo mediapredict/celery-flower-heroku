@@ -1,3 +1,2 @@
-celery==4.4.7
 flower
 redis==3.5.0
